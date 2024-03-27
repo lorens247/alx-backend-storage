@@ -44,4 +44,5 @@ if __name__ == "__main__":
     for top_ip in top_ips:
         ip = top_ip.get("ip")
         count = top_ip.get("count")
-        print(f'\t{ip}: {count}')i
+        print(f'\t{ip}: {count}')
+
